@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(234, 219, 235);
+}
+
+
+.calculadora {
+    display: block;    
+    background-image: url(../img/metalizado-verde.jpg);
+    background-position: cover;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 23rem;
+    height: 35rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 5px solid rgb(27, 68, 10);
+}
+
+.calculadora td button {
+    display: block;
+    background-image: url(../img/silver.jpg);
+    width: 4rem;
+    height: 4rem;
+    font-size: 25px;
+    border-radius: 1rem;
+}
+.calculadora td .btn {
+    width: 95%;
+}
+ 
+#resultado {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    background-color: rgb(245, 245, 239);;
+    border-radius: 1rem;
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+}
